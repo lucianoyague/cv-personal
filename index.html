@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV — Luciano Yague</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="app.js"></script>
+</head>
+<body>
+
+  <div class="noise"></div>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <span class="nav-logo">LY<span class="dot">.</span></span>
+    <div class="nav-links">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+    <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+      <span class="toggle-icon">◐</span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="sobre-mi">
+    <div class="hero-inner">
+      <div class="hero-label">Estudiante de la tecnicatura universitaria en programación en UTN </div>
+      <h1 class="hero-name">
+        <span class="line">Luciano</span>
+        <span class="line accent-line">Yague</span>
+      </h1>
+      <p class="hero-bio">
+        Desarrollador apasionado por construir sistemas limpios, escalables y
+        bien testeados<strong>.
+        
+      </p>
+      <div class="hero-chips">
+        <span class="chip">📍 Argentina</span>
+        <span class="chip">🎓 En formación</span>
+        <span class="chip">💼 Disponible</span>
+      </div>
+      <div class="hero-cta">
+        <a href="#contacto" class="btn-primary">Contactarme</a>
+        <a href="#proyectos" class="btn-ghost">Ver proyectos →</a>
+      </div>
+    </div>
+    <div class="hero-deco">
+      <div class="deco-ring ring-1"></div>
+      <div class="deco-ring ring-2"></div>
+      <div class="deco-ring ring-3"></div>
+      <div class="initials-block">LY</div>
+    </div>
+  </header>
+
+  <!-- EXPERIENCIA -->
+  <section class="section" id="experiencia">
+    <div class="section-header">
+      <span class="section-num">01</span>
+      <h2>Experiencia</h2>
+    </div>
+    <div class="timeline">
+
+      <article class="timeline-item">
+        <div class="timeline-date">2024 — Actual</div>
+        <div class="timeline-content">
+          <p>Desarrollo de APIs REST en .NET, implementación de pruebas unitarias con xUnit y mantenimiento de base de datos SQL Server.</p>
+          <div class="tags">
+            <span class="tag">.NET</span>
+            <span class="tag">C#</span>
+            <span class="tag">SQL Server</span>
+            <span class="tag">xUnit</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="timeline-item">
+        <div class="timeline-date">2023</div>
+        <div class="timeline-content">
+          <h3>Trabajos freelance <span class="at">@</span>
+          <p>Colaboré en el frontend de una aplicación web con HTML, CSS y JavaScript vanilla. Integré endpoints REST y trabajé con Git en equipo.</p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Git</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section class="section section-alt" id="habilidades">
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <h2>Habilidades</h2>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-icon">⚙️</div>
+        <h3>Backend</h3>
+        <ul>
+          <li>C# / .NET</li>
+          <li>APIs REST</li>
+          <li>xUnit (testing)</li>
+          <li>SQL Server</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🌐</div>
+        <h3>Frontend</h3>
+        <ul>
+          <li>HTML5 semántico</li>
+          <li>CSS3 / Flexbox / Grid</li>
+          <li>JavaScript ES6+</li>
+          <li>Fetch API / DOM</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🛠️</div>
+        <h3>Herramientas</h3>
+        <ul>
+          <li>Git / GitHub</li>
+          <li>Visual Studio Code</li>
+          <li>Visual Studio</li>
+          <li>cURL</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🧠</div>
+        <h3>Conceptos</h3>
+        <ul>
+          <li>POO</li>
+          <li>DNS / HTTP</li>
+          <li>Pruebas unitarias</li>
+          <li>Control de versiones</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section class="section" id="proyectos">
+    <div class="section-header">
+      <span class="section-num">03</span>
+      <h2>Proyectos</h2>
+    </div>
+    <div class="projects-grid">
+
+      <article class="project-card featured">
+        <div class="project-tag-top">⭐ Destacado</div>
+        <h3>Este CV</h3>
+        <p>Sitio web personal construido con HTML, CSS y JavaScript vanilla. Separación de responsabilidades en tres archivos, servido via GitHub Pages.</p>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">GitHub Pages</span>
+        </div>
+        <a href="https://github.com/tu-usuario/tu-repo" class="project-link" target="_blank">Ver repositorio →</a>
+      </article>
+
+      <article class="project-card">
+        <h3>API de Tareas</h3>
+        <p>API REST en .NET para gestión de tareas con operaciones CRUD, validaciones y cobertura de tests unitarios con xUnit.</p>
+        <div class="tags">
+          <span class="tag">.NET</span>
+          <span class="tag">C#</span>
+          <span class="tag">xUnit</span>
+        </div>
+        <a href="#" class="project-link">Ver repositorio →</a>
+      </article>
+
+      <article class="project-card">
+        <h3>Explorador DNS</h3>
+        <p>Script en bash que usa cURL para consultar registros DNS e inspeccionar cabeceras HTTP de cualquier dominio.</p>
+        <div class="tags">
+          <span class="tag">cURL</span>
+          <span class="tag">Bash</span>
+          <span class="tag">DNS</span>
+        </div>
+        <a href="#" class="project-link">Ver repositorio →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section section-alt" id="contacto">
+    <div class="section-header">
+      <span class="section-num">04</span>
+      <h2>Contacto</h2>
+    </div>
+    <div class="contact-wrap">
+      <p class="contact-tagline">¿Hablamos?</p>
+      <div class="contact-links">
+        <a href="/cdn-cgi/l/email-protection#9febeadffaf2fef6f3b1fcf0f2" class="contact-item">
+          <span class="contact-icon">✉</span>
+          <span><span class="__cf_email__" data-cfemail="acd8d9ecc9c1cdc5c082cfc3c1">lucianoyague@icloud.com</span></span>
+        </a>
+        <a href="https://github.com/tu-usuario" class="contact-item" target="_blank">
+          <span class="contact-icon">⌥</span>
+          <span>https://github.com/lucianoyague</span>
+        </a>
+        <a href="https://linkedin.com/in/tu-usuario" class="contact-item" target="_blank">
+          <span class="contact-icon">in</span>
+          <span>linkedin.com/in/lucianoyague</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
